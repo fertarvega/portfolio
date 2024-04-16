@@ -13,8 +13,6 @@ const TechnologiesIcon: React.FC<TechnologiesIcon> = ({
   iconUrl,
   borderIconWidthSize,
   borderIconHeighSize,
-  iconHeighSize,
-  padding,
   isHome,
 }) => {
   return (
