@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.css";
 import { Footer } from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import Resume from "./components/Resume";
