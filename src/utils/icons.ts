@@ -1,0 +1,98 @@
+export const technologiesIconsList = [
+  {
+    iconUrl: "html5.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "css.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "javascript.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "typescript.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "c4.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "python.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "nodejs.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "react.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "nextjs.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "angular.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "mysql.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "postgresql.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "mongodb.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "unity.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "git.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+  {
+    iconUrl: "figma.svg",
+    borderIconHeighSize: 20,
+    borderIconWidthSize: 20,
+    iconHeighSize: 8,
+  },
+];
