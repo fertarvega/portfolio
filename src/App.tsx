@@ -9,12 +9,18 @@ import { carpoolProject, sentinelProject } from "./utils/projectDescriptions";
 
 function App() {
   return (
-    <main>
+    <main className="container px-12 mx-auto my-20 flex flex-col items-center">
+      <h1 className="text-3xl font-medium mb-5 flex items-center">
+        Fernando Tarango
+      </h1>
+      <h2 className="text-1xl font-medium mb-5 flex items-center">
+        Frontend Developer
+      </h2>
       <Resume />
       <section>
-        <div className="text-3xl font-medium text-black mb-5 flex items-center">
-          <h3>Languages and Technologies</h3>
-        </div>
+        <h3 className="text-3xl font-medium mb-5 flex items-center">
+          Technologies
+        </h3>
         <div className="flex flex-wrap justify-center mt-10">
           {technologiesIconsList.map((icon, index) => (
             <TechnologiesIcon
@@ -28,7 +34,7 @@ function App() {
           ))}
         </div>
       </section>
-      <section className="mt-12 mb-12 grid lg:grid-cols-2 sm:justify-items-center">
+      <section className="mt-12 mb-12 grid lg:grid-cols-2 sm:justify-items-center gap-16">
         <ProjectCard projectInfo={carpoolProject}></ProjectCard>
         <ProjectCard projectInfo={sentinelProject}></ProjectCard>
       </section>

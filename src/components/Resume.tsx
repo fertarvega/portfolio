@@ -1,7 +1,8 @@
 const Resume = () => {
   return (
-    <div className="mb-5 grid grid-cols-3">
+    <section className="mb-5 grid grid-cols-3">
       <div className="col-span-2">
+        <h3 className="text-3xl font-medium mb-5 flex items-center">Resume</h3>
         <p className="text-lg mb-5">
           I consider myself a person who has no limits for learning. Learning
           about different things, cultures, technologies, people and ways of
@@ -25,7 +26,7 @@ const Resume = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

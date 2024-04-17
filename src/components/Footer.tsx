@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="mx-4 mb-4 mt-10">
+    <footer className="mt-10">
       <div className="w-full mx-2 max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
         <span className="text-lg font-medium text-gray-500 sm:text-center">
           Fernando Tarango
