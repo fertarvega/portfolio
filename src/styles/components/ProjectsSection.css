@@ -1,0 +1,26 @@
+@keyframes moveLinesDown {
+    0% {
+      background-position-y: 0;
+    }
+    100% {
+      background-position-y: 15px;
+    }
+  }
+  
+  .hologram-lines {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(to bottom, transparent, transparent 1px, rgba(100, 148, 237, 0.05) 1px, rgba(100, 149, 237, 0.1) 13px);
+    background-size: 100% 15px;
+    animation: moveLinesDown 1s linear infinite;
+  }
+  
+  .hologram-container:hover .hologram-lines {
+      animation: moveLinesDown 12s linear infinite;
+  }
+  
+  .hologram-container {
+      position: relative;
+      overflow: hidden;
+  }

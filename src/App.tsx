@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback, useState } from "react";
 import SectionOne from "./components/SectionOne";
+import ProjectsSection from "./components/ProjectsSection";
 
 const HorizontalScroll = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -54,10 +55,16 @@ const HorizontalScroll = () => {
       className="flex overflow-x-auto snap-x snap-mandatory scroll-smooth"
       style={{ overflow: "auto" }}
     >
-      <section className="snap-start w-screen h-screen bg-blue-200 flex-shrink-0 flex items-center justify-center">
-        <SectionOne />
+      <section className="snap-start w-screen h-screen bg-slate-900 flex-shrink-0 flex items-center justify-center">
+        <ProjectsSection
+          title={"Test"}
+          description={
+            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        />
       </section>
       <section className="snap-start w-screen h-screen bg-green-200 flex-shrink-0 flex items-center justify-center">
+        <SectionOne />
       </section>
       <section className="snap-start w-screen h-screen bg-red-200 flex-shrink-0 flex items-center justify-center">
         Sección 3
