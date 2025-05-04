@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  html,
+  body {
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+  
+  #transition-circle {
+    z-index: 50;
+    pointer-events: none;
+  }
+  
